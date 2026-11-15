@@ -4,7 +4,8 @@
   item in `content`. The newest date is shown first.
 */
 window.BLOG_POSTS = [
-  {
+  }
+ {
     slug: 'philosophical-quotes',
     title: 'Philosophical Quote#1',
     date: '2026-11-15',
@@ -14,6 +15,10 @@ window.BLOG_POSTS = [
       'A man will be living his whole life just by wondering if his life was fate or free will eventually. - Alisher Tursunov',
       'Thanks for stopping by. More soon.'
     ]
+  }
+];
+
+window.BLOG_POSTS = [
   }
   {
     slug: 'hello-and-welcome',
