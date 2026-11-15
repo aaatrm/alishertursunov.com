@@ -18,7 +18,6 @@ window.BLOG_POSTS = [
   }
 ];
 
-window.BLOG_POSTS = [
   }
   {
     slug: 'hello-and-welcome',
