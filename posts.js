@@ -1,3 +1,5 @@
+// Add new posts here. Copy a post object, add a comma between posts, and save.
+// Newest dates appear first. Use a unique slug and the YYYY-MM-DD date format.
 window.BLOG_POSTS = [
   {
     slug: 'philosophical-quote-3',
