@@ -3,7 +3,7 @@
 window.BLOG_POSTS = [
     {
   slug: 'post-of-day1',
-  title: 'Post of the day2',
+  title: 'Just checking',
   date: '2026-11-16',
   category: 'Notes',
   excerpt: 'A short preview shown on the homepage.',
