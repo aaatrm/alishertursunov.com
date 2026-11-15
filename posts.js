@@ -5,9 +5,20 @@
 */
 window.BLOG_POSTS = [
   {
+    slug: 'hello-and-quote1',
+    title: 'Philosophical Quote #2',
+    date: '2026-11-15',
+    category: 'A quote',
+    excerpt: 'A small corner of the internet for thoughts worth keeping.',
+    content: [
+      'One day. - Alisher Tursunov',
+      'Thanks for stopping by. More soon.'
+    ]
+  },
+  {
     slug: 'hello-and-quote',
     title: 'Philosophical Quote #1',
-    date: '2026-11-14',
+    date: '2026-11-15',
     category: 'A quote',
     excerpt: 'A small corner of the internet for thoughts worth keeping.',
     content: [
