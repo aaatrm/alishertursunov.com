@@ -1,65 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
-    <style>
-      :root {
-        --bg: #f5f3ee;
-        --card: #ffffff;
-        --text: #1f1f1f;
-        --muted: #5a5a5a;
-        --accent: #e76f51;
-      }
-
-      * { box-sizing: border-box; }
-
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        background: linear-gradient(135deg, #f5f3ee 0%, #ece6dc 100%);
-        font-family: Arial, Helvetica, sans-serif;
-        color: var(--text);
-      }
-
-      .card {
-        background: rgba(255, 255, 255, 0.7);
-        border: 1px solid rgba(31, 31, 31, 0.08);
-        border-radius: 20px;
-        padding: 3rem 4rem;
-        text-align: center;
-        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
-        backdrop-filter: blur(8px);
-      }
-
-      h1 {
-        margin: 0;
-        font-size: clamp(3rem, 8vw, 6rem);
-        letter-spacing: -0.08em;
-        line-height: 0.95;
-      }
-
-      .accent {
-        display: inline-block;
-        color: var(--accent);
-      }
-
-      p {
-        margin: 1rem 0 0;
-        font-size: 1rem;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: var(--muted);
-      }
-    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f7f4" />
+    <meta name="description" content="Notes, ideas, and stories by Alisher Tursunov." />
+    <title>Alisher Tursunov — Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="posts.js" defer></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <main class="card">
-      <h1><span class="accent">Hello</span> World</h1>
-      <p>Welcome to my first page</p>
+    <header class="site-header">
+      <a class="wordmark" href="#" aria-label="Alisher Tursunov home">at<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#">Writing</a>
+        <a href="mailto:hello@alishertursunov.com">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main" class="page-shell">
+      <section id="home-view" aria-labelledby="page-title">
+        <div class="intro">
+          <p class="eyebrow"><span class="status-dot"></span> A personal blog</p>
+          <h1 id="page-title">Ideas, notes<br />&amp; <span>in-between.</span></h1>
+          <p class="intro-copy">A place for things I’m learning, making, and thinking about. Thanks for being here.</p>
+        </div>
+
+        <section class="writing" aria-labelledby="writing-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">The journal</p>
+              <h2 id="writing-title">Recent writing</h2>
+            </div>
+            <label class="search-wrap">
+              <span class="visually-hidden">Search posts</span>
+              <span aria-hidden="true">⌕</span>
+              <input id="post-search" type="search" placeholder="Find a post" autocomplete="off" />
+            </label>
+          </div>
+          <div id="post-list" class="post-list" aria-live="polite"></div>
+          <p id="empty-state" class="empty-state" hidden>No posts found. Try another search.</p>
+        </section>
+      </section>
+
+      <article id="article-view" class="article-view" hidden aria-live="polite"></article>
     </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Alisher Tursunov</span>
+      <span>Made to be read slowly.</span>
+    </footer>
   </body>
 </html>
