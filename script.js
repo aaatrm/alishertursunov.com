@@ -5,12 +5,13 @@ const postList = document.querySelector('#post-list');
 const searchInput = document.querySelector('#post-search');
 const emptyState = document.querySelector('#empty-state');
 
-const formatDate = (date) => new Intl.DateTimeFormat('en', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-  timeZone: 'UTC'
-}).format(new Date(`${date}T00:00:00Z`));
+const formatDate = (date) =>
+  new Intl.DateTimeFormat('en', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'UTC'
+  }).format(new Date(`${date}T00:00:00Z`));
 
 const sortedPosts = [...posts].sort((a, b) => b.date.localeCompare(a.date));
 
@@ -112,11 +113,13 @@ function renderRoute() {
 
   const match = window.location.hash.match(/^#post\/(.+)$/);
   let slug = null;
+
   try {
     slug = match ? decodeURIComponent(match[1]) : null;
   } catch {
     slug = null;
   }
+
   const post = slug && sortedPosts.find((item) => item.slug === slug);
 
   if (post) {

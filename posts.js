@@ -1,29 +1,13 @@
-/*
-  Add a post by copying an object below and changing its fields.
-  Keep dates in YYYY-MM-DD format. Write the article as one paragraph per
-  item in `content`. The newest date is shown first.
-*/
 window.BLOG_POSTS = [
   {
-    slug: 'hello-and-quote1',
+    slug: 'philosophical-quote-2',
     title: 'Philosophical Quote #2',
     date: '2026-11-15',
     category: 'A quote',
-    excerpt: 'A small corner of the internet for thoughts worth keeping.',
-    content: [
-      'One day. - Alisher Tursunov',
-      'Thanks for stopping by. More soon.'
-    ]
-  },
-  {
-    slug: 'hello-and-quote',
-    title: 'Philosophical Quote #1',
-    date: '2026-11-15',
-    category: 'A quote',
-    excerpt: 'A small corner of the internet for thoughts worth keeping.',
+    excerpt: 'A small thought worth carrying into the day.',
     content: [
       'A man will be living his whole life just by wondering if his life was fate or free will eventually. - Alisher Tursunov',
-      'Thanks for stopping by. More soon.'
+      'The real question is not whether life is predetermined, but whether we are awake enough to choose our response.'
     ]
   },
   {
