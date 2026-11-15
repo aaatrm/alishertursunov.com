@@ -2,6 +2,17 @@
 // Newest dates appear first. Use a unique slug and the YYYY-MM-DD date format.
 window.BLOG_POSTS = [
   {
+  slug: 'my-new-post',
+  title: 'My new post',
+  date: '2026-11-16',
+  category: 'Notes',
+  excerpt: 'A short preview shown on the homepage.',
+  content: [
+    'First paragraph of the post.',
+    'Second paragraph. Each item in this array becomes a paragraph.'
+  ]
+},
+  {
     slug: 'philosophical-quote-3',
     title: 'Philosophical Quote #2',
     date: '2026-11-15',
