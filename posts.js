@@ -4,10 +4,9 @@
   item in `content`. The newest date is shown first.
 */
 window.BLOG_POSTS = [
-  }
- {
+  {
     slug: 'hello-and-quote',
-    title: 'Philosophical Quote#1',
+    title: 'Philosophical Quote #1',
     date: '2026-11-14',
     category: 'A quote',
     excerpt: 'A small corner of the internet for thoughts worth keeping.',
@@ -15,10 +14,7 @@ window.BLOG_POSTS = [
       'A man will be living his whole life just by wondering if his life was fate or free will eventually. - Alisher Tursunov',
       'Thanks for stopping by. More soon.'
     ]
-  }
-];
-
-  }
+  },
   {
     slug: 'hello-and-welcome',
     title: 'Hello, and welcome',
