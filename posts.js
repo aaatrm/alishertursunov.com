@@ -1,6 +1,17 @@
 // Add new posts here. Copy a post object, add a comma between posts, and save.
 // Newest dates appear first. Use a unique slug and the YYYY-MM-DD date format.
 window.BLOG_POSTS = [
+    {
+  slug: 'post-of-day1',
+  title: 'Post of the day2',
+  date: '2026-11-16',
+  category: 'Notes',
+  excerpt: 'A short preview shown on the homepage.',
+  content: [
+    'First.',
+    'Second.'
+  ]
+},
   {
   slug: 'post-of-day',
   title: 'Post of the day',
