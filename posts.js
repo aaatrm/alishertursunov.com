@@ -6,10 +6,10 @@
 window.BLOG_POSTS = [
   }
  {
-    slug: 'philosophical-quotes',
+    slug: 'hello-and-welcome1',
     title: 'Philosophical Quote#1',
-    date: '2026-11-15',
-    category: 'A note',
+    date: '2026-11-16',
+    category: 'A quote',
     excerpt: 'A small corner of the internet for thoughts worth keeping.',
     content: [
       'A man will be living his whole life just by wondering if his life was fate or free will eventually. - Alisher Tursunov',
