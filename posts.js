@@ -8,7 +8,7 @@ window.BLOG_POSTS = [
  {
     slug: 'hello-and-welcome1',
     title: 'Philosophical Quote#1',
-    date: '2026-11-16',
+    date: '2026-11-14',
     category: 'A quote',
     excerpt: 'A small corner of the internet for thoughts worth keeping.',
     content: [
