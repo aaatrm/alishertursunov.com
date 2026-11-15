@@ -6,7 +6,7 @@
 window.BLOG_POSTS = [
   }
  {
-    slug: 'hello-and-welcome1',
+    slug: 'hello-and-quote',
     title: 'Philosophical Quote#1',
     date: '2026-11-14',
     category: 'A quote',
