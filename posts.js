@@ -1,5 +1,16 @@
 window.BLOG_POSTS = [
   {
+    slug: 'philosophical-quote-3',
+    title: 'Philosophical Quote #2',
+    date: '2026-11-15',
+    category: 'A quote',
+    excerpt: 'A small thought worth carrying into the day.',
+    content: [
+      'One day. - Alisher Tursunov',
+      'The real question is not whether life is predetermined, but whether we are awake enough to choose our response.'
+    ]
+  },
+  {
     slug: 'philosophical-quote-2',
     title: 'Philosophical Quote #2',
     date: '2026-11-15',
