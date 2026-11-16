@@ -3,13 +3,12 @@
 window.BLOG_POSTS = [
     {
   slug: 'post-of-day1',
-  title: 'Just checking',
+  title: 'Philosophical Quote',
   date: '2026-11-16',
-  category: 'Notes',
+  category: 'Quotes',
   excerpt: 'A short preview shown on the homepage.',
   content: [
-    'First.',
-    'Second.'
+    'I was most afraid of losing you, but then I realized that I could never truly lose you. - Alisher Tursunov'
   ]
 },
   {
