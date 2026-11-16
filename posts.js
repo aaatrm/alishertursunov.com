@@ -30,7 +30,7 @@ window.BLOG_POSTS = [
     category: 'A quote',
     excerpt: 'A small thought worth carrying into the day.',
     content: [
-      'I was looking for answers to everything, but deep down, I always knew the answer was love. - Alisher Tursunov''
+      'I was looking for answers to everything, but deep down, I always knew the answer was love. - Alisher Tursunov'
     ]
   },
   {
