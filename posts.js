@@ -25,13 +25,12 @@ window.BLOG_POSTS = [
 },
   {
     slug: 'philosophical-quote-3',
-    title: 'Philosophical Quote #2',
+    title: 'Philosophical Quote',
     date: '2026-11-15',
     category: 'A quote',
     excerpt: 'A small thought worth carrying into the day.',
     content: [
-      'One day. - Alisher Tursunov',
-      'The real question is not whether life is predetermined, but whether we are awake enough to choose our response.'
+      'I was looking for answers to everything, but deep down, I always knew the answer was love. - Alisher Tursunov''
     ]
   },
   {
@@ -41,7 +40,7 @@ window.BLOG_POSTS = [
     category: 'A quote',
     excerpt: 'A small thought worth carrying into the day.',
     content: [
-      'A man will spend his whole life just wondering whether his life was shaped by fate or, eventually, by his own free will. - Alisher Alex Tursunov',
+      'A man will spend his whole life just wondering whether his life was shaped by fate or, eventually, by his own free will. - Alisher Tursunov',
       'The real question is not whether life is predetermined, but whether we are awake enough to choose our response.'
     ]
   },
