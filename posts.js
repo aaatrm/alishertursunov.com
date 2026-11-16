@@ -19,7 +19,7 @@ window.BLOG_POSTS = [
   category: 'Quotes',
   excerpt: 'A short preview shown on the homepage.',
   content: [
-    '"I always wanted to believe in the best, but sometimes the best let me down. - Alisher Tursunov'
+    'I always wanted to believe in the best, but sometimes the best let me down. - Alisher Tursunov'
   ]
 },
   {
