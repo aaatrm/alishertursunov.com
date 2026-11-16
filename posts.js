@@ -40,8 +40,7 @@ window.BLOG_POSTS = [
     category: 'A quote',
     excerpt: 'A small thought worth carrying into the day.',
     content: [
-      'A man will spend his whole life just wondering whether his life was shaped by fate or, eventually, by his own free will. - Alisher Tursunov',
-      'The real question is not whether life is predetermined, but whether we are awake enough to choose our response.'
+      'A man will spend his whole life just wondering whether his life was shaped by fate or, eventually, by his own free will. - Alisher Tursunov'
     ]
   },
   {
