@@ -36,7 +36,7 @@ window.BLOG_POSTS = [
   },
   {
     slug: 'philosophical-quote-2',
-    title: 'Philosophical Quote #1',
+    title: 'Philosophical Quote',
     date: '2026-11-15',
     category: 'A quote',
     excerpt: 'A small thought worth carrying into the day.',
