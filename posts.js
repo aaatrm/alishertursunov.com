@@ -14,20 +14,19 @@ window.BLOG_POSTS = [
 },
   {
   slug: 'post-of-day',
-  title: 'Post of the day',
-  date: '2026-11-16',
-  category: 'Notes',
+  title: 'Philosophical Quote',
+  date: '2026-11-15',
+  category: 'Quotes',
   excerpt: 'A short preview shown on the homepage.',
   content: [
-    'First.',
-    'Second.'
+    '"I always wanted to believe in the best, but sometimes the best let me down. - Alisher Tursunov'
   ]
 },
   {
     slug: 'philosophical-quote-3',
     title: 'Philosophical Quote',
     date: '2026-11-15',
-    category: 'A quote',
+    category: 'Quotes',
     excerpt: 'A small thought worth carrying into the day.',
     content: [
       'I was looking for answers to everything, but deep down, I always knew the answer was love. - Alisher Tursunov'
@@ -37,7 +36,7 @@ window.BLOG_POSTS = [
     slug: 'philosophical-quote-2',
     title: 'Philosophical Quote',
     date: '2026-11-15',
-    category: 'A quote',
+    category: 'Quotes',
     excerpt: 'A small thought worth carrying into the day.',
     content: [
       'A man will spend his whole life just wondering whether his life was shaped by fate or, eventually, by his own free will. - Alisher Tursunov'
