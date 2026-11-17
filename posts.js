@@ -1,7 +1,21 @@
 // Add new posts here. Copy a post object, add a comma between posts, and save.
 // Newest dates appear first. Use a unique slug and the YYYY-MM-DD date format.
 window.BLOG_POSTS = [
-    {
+ {
+  slug: 'post-of-day2',
+  title: 'Philosophical Quote',
+  date: '2026-11-17',
+  category: 'Quotes',
+  excerpt: 'A short preview shown on the homepage.',
+  content: [
+    '"I am afraid of asking life for anything, for three reasons:
+It might give it to me, and I might not know what to do with it.
+It might give it to me, only to take it away.
+It might never give it to me, yet keep me wishing for it."
+Alisher Tursunov'
+  ]
+},
+        {
   slug: 'post-of-day1',
   title: 'Philosophical Quote',
   date: '2026-11-16',
