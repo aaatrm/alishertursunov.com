@@ -8,11 +8,11 @@ window.BLOG_POSTS = [
   category: 'Quotes',
   excerpt: 'A short preview shown on the homepage.',
   content: [
-    '"I am afraid of asking life for anything, for three reasons:
-It might give it to me, and I might not know what to do with it.
-It might give it to me, only to take it away.
-It might never give it to me, yet keep me wishing for it."
-Alisher Tursunov'
+    '"I am afraid of asking life for anything, for three reasons: ',
+'It might give it to me, and I might not know what to do with it. ',
+'It might give it to me, only to take it away. ',
+'It might never give it to me, yet keep me wishing for it." ',
+'Alisher Tursunov'
   ]
 },
         {
